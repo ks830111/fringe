@@ -1,0 +1,245 @@
+/* sub2-1.css 스타일 시트 */
+
+/* header */
+.pointPage {
+    color :  #1f65d5;
+}
+
+/* content 영역 */
+#sub2-1 #content {
+    position: relative;
+    width: 100%;
+    min-width: 1200px;
+}
+/* main-visual */
+#sub2-1 #content #main-visual {
+    position: relative;
+    width: auto; 
+    height: 570px;
+    background-image: url("../images/room-visual.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;   
+}
+#sub2-1 #content #main-visual div {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+#sub2-1 #content #main-visual p {
+    position: absolute;
+    top: 270px;
+    left: 400px;
+    z-index:100;
+    color: rgba(255,255,255,0.8);
+    font-size: 6em;
+    font-weight: bold;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.2);
+    font-family: 'Parisienne', cursive;
+    letter-spacing: 0.1em;
+    z-index: 93;
+}
+
+/* Page_nav */
+#sub2-1 #content #page_nav {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 10px;
+    position: relative;
+}
+#sub2-1 #content #page_nav ul{
+    float: right;
+}
+#sub2-1 #content #page_nav ul li{
+    display: inline-block;
+    padding-left: 5px;
+}
+
+/* 객실 소개 */
+#sub2-1 #content #room_info {   
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 60px;
+    height: 280px;
+    position: relative;
+    opacity:0;   
+}
+#sub2-1 #content #room_info .col2 {  
+   float: right;   
+   margin-left: 200px;
+}
+#sub2-1 #content #room_info .col2 h3{
+    font-size: 1.1em;
+    margin-top: 35px;
+    margin-bottom: 28px;
+    color: #be9336;
+}
+#sub2-1 #content #room_info .col2 h2 {
+    color: #464646;
+    font-size: 2em;
+    margin-top: 20px;
+    margin-bottom: 20px;  
+}
+#sub2-1 #content #room_info .col2 p {
+    line-height: 2em;
+}
+#sub2-1 #content #room_info .col2 span {
+    margin-top: 60px;
+    display: block;
+}
+#sub2-1 #content #room_info .col2 a {
+    padding: 5px 30px;
+    border: 1px solid #d0d0d0;
+    border-radius: 20px;
+    margin-top: 20px;
+    display: inline-block;
+    line-height: 20px;    
+}
+#sub2-1 #content #room_info .col2 a:last-child {
+    margin-left: 5px;
+}
+#sub2-1 #content #room_info .col2 a:hover {
+    background-color: #1c71da;
+    color: white;
+} 
+#sub2-1 #content #amenity {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 60px;
+    height: 400px;
+    margin-bottom: 30px;
+    opacity: 0;
+}
+
+/* 편의시설 */
+#sub2-1 #content #amenity .am_title p {  
+    float: left;   
+    margin-left: 290px;
+    margin-top: 40px;
+    font-size: 2em;
+    color: #464646;
+    
+}
+#sub2-1 #content #amenity img {
+    float: right;
+    width: 650px;  
+}
+#sub2-1 #content #amenity .clear {
+    clear: both;
+}
+#sub2-1 #content #amenity .convenience {
+    float: right;
+    width: 650px;
+    height: 250px;
+    margin-top: 30px;
+    padding-top: 20px;   
+}
+#sub2-1 #content #amenity .convenience  {
+    position: relative;
+}
+#sub2-1 #content #amenity .convenience table {
+    width: 100%;
+}
+#sub2-1 #content #amenity .convenience th {
+    text-align: left;
+    width: 33.33%;
+    font-size: 1.2em;
+    padding-bottom: 20px;
+    color: #464646;
+}
+#sub2-1 #content #amenity .convenience p {
+    margin-top: 30px;
+}
+
+/* 포토 갤러리 */
+#sub2-1 #content #speci_bnr {
+    width: 1200px;
+    position: relative;    
+    margin: 0 auto;
+    text-align: center;   
+    height: 660px;
+}
+#sub2-1 #content #speci_bnr .line{
+    display: flex;
+	flex-basis: 100%;
+	align-items: center;
+	font-size: 1.7em;
+    margin: 8px 0px;
+    margin-left: 290px;
+    color: #464646;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.2);
+    font-family: 'Parisienne', cursive;
+}
+#sub2-1 #content #speci_bnr .line:before,
+#sub2-1 #content #speci_bnr .line:after {
+    content: "";
+	flex-grow: 4;
+	background: #cfcfcf;
+	height: 1px;
+	font-size: 0px;
+	line-height: 0px;
+    margin: 0px 20px;    
+}
+#sub2-1 #content #speci_bnr .bx_area {
+    width: 910px;    
+    float: right;
+    margin-top: 30px;      
+}
+#sub2-1 #content #speci_bnr .bx_area .speci-bxslider {
+    width: 910px;
+    height: 583px;
+}
+
+/* bx 슬라이더 외곽선 없앰 */
+.bx-wrapper {
+    box-shadow: none!important;
+    border: 0!important;
+}
+
+/* 좌측 룸 메뉴 */
+#content #sideroom_menu{
+    width: 220px;
+    height: 100%;
+    position: fixed;
+    top: 90px;
+    left: 0px;
+    z-index: 98;
+    text-align: left;
+    background: #f8f8f8;
+}
+#content #sideroom_menu h3 {
+    padding: 10px 0 10px 20px;
+    line-height: 1.8em;   
+    background: #e1e1e1;    
+}
+#content #sideroom_menu h3 .r_sign {
+    margin-left: 100px;
+}
+#content #sideroom_menu ul li {
+    border-top: 1px solid #d4d4d4;  
+    text-indent: 50px;
+}
+#content #sideroom_menu ul li a{
+    display:block;
+    padding: 10px 0;
+}
+#content #sideroom_menu ul li:first-child {    
+    background: #1c71da;    
+}
+#content #sideroom_menu ul li:first-child a{
+    color: white;
+}
+#content #sideroom_menu ul li:hover{
+    background: #4f9eff; 
+    cursor: pointer; 
+}
+#content #sideroom_menu ul li a:hover {
+    color: white;
+}
+#content #sideroom_menu ul li:first-child:hover{
+    background: #4f9eff;   
+}
+#content #sideroom_menu ul li:last-child {  
+    border-bottom: 1px solid #d4d4d4;
+}

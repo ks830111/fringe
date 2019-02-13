@@ -1,0 +1,50 @@
+/* 행복 1,2 */
+.haengbok_bi1{
+    /* border: 1px solid red; */
+    overflow: hidden;
+    position: absolute;
+    width: 548px;
+    height: 640px;
+    left: 0px;
+}
+.haengbok_bi2{
+    /* border: 1px solid red; */
+    overflow: hidden;
+    position: absolute;
+    width: 548px;
+    height: 640px;
+    right: 0px;
+}
+
+.haengbok_box1 .haengbok_div1{
+    /* border: 1px solid red; */
+    position: absolute;
+    width: 548px;
+    height: 640px;
+    left: 0px;
+    
+    background: rgba(0, 55, 175, 0.8);
+    box-sizing: border-box;
+    padding-top: 250px;
+    color: #fff;
+    text-align: center;
+    transition: 0.1s ease-in-out;
+    opacity: 0;
+}
+.haengbok_box2 .haengbok_div2{
+    /* border: 1px solid red; */
+    position: absolute;
+    width: 548px;
+    height: 640px;
+    right: 0px;
+    
+    background: rgba(0, 55, 175, 0.8);
+    box-sizing: border-box;
+    padding-top: 250px;
+    color: #fff;
+    text-align: center;
+    transition: 0.1s ease-in-out;
+    opacity: 0;
+}
+
+/* end 행복 1,2 */

@@ -1,0 +1,17 @@
+#main_header {
+    top: -110px;
+    animation-name: header;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+}
+@keyframes header{
+    0%{
+        top: -110px;
+        opacity: 0;
+    }
+    100%{
+        top: 0;
+        opacity: 1;
+    }
+};

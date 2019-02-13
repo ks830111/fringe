@@ -1,0 +1,211 @@
+/* sub1-1.css 스타일 시트 */
+
+/* header */
+.pointPage {
+    color :  #1f65d5;
+}
+
+/* content 영역 */
+
+/* 비주얼 영역 */
+#sub1-1 #content {
+    position: relative;
+    width: 100%;
+    min-width: 1200px;    
+}
+#sub1-1 #content #about-visual {
+    position: relative;
+    width: auto; 
+    height: 570px;
+    background-image: url("../images/about-visual.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#sub1-1 #content #about-visual div {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+#sub1-1 #content #about-visual p {
+    position: absolute;
+    top: 270px;
+    left: 340px;
+    z-index:100;
+    color: white;
+    font-size: 6em;
+    font-weight: bold;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.2);
+    font-family: 'Parisienne', cursive;
+    letter-spacing: 0.1em;
+    z-index: 94;
+}
+
+ /* Page Nav 영역 */
+ #sub1-1 #content #page_nav {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 10px;
+    position: relative;   
+    height: 20px;
+    z-index: 111;
+}
+#sub1-1 #content #page_nav ul{
+    float: right;
+}
+#sub1-1 #content #page_nav ul li{
+    display: inline-block;
+    padding-left: 5px;
+}    
+
+/* fringe 소개 영역 */
+#sub1-1 #content #infomation {
+    width: 100%;
+    margin: 0 auto;
+    height: 510px;
+    margin-top: 60px;
+    min-width: 1200px;
+    position: relative;
+}
+#sub1-1 #content #infomation .info_txt {
+    width: 30%;
+    float: left;
+    text-align: right;
+    line-height: 2em;
+    margin-top: 220px;
+    padding-right: 20px;
+}
+#sub1-1 #content #infomation .welcometitle {
+    margin-top: 20px;
+    font-family: 'Parisienne', cursive;
+    font-size: 2em;
+}
+#sub1-1 #content #infomation .info_img {
+    width: 70%;
+    height: 500px;
+    background-image: url("../images/fringe_visual1.png");
+    float: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* sub-info 영역 */
+#sub1-1 #content #sub-info {
+    width: 100%;
+    height: 580px;
+    margin: 30px auto;
+    padding: 40px 0;
+    background: #f7f7f7;
+    min-width: 1200px;
+    position: relative;
+}
+#sub1-1 #content #sub-info .subinfo_img{
+    width: 70%;
+    height: 500px;
+    background-image: url("../images/fringe-visual2.png");
+    float: left;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+#sub1-1 #content #sub-info .subinfo_txt{
+    width: 30%;
+    float: left;
+    text-align: left;
+    line-height: 2em;
+    padding-left: 20px;
+    font-family: 'Parisienne', "맑은 고딕", sans-serif;
+    font-size: 1.2em;
+}
+#sub1-1 #content #sub-info .pensiontitle {
+    margin-top: 50px;
+    font-size: 1.2em;
+}
+
+/* 찾아오시는길, 지도 영역 */
+#sub1-1 #content #map{
+    width: 100%;
+    height: 750px;
+    position: relative;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+#sub1-1 #content #map .map_txt {
+    margin-bottom: 50px;
+}
+#sub1-1 #content #map .line{
+    display: flex;
+	flex-basis: 100%;
+	align-items: center;
+	font-size: 1.4em;
+    margin: 8px 0px;
+}
+#sub1-1 #content #map .line:before,
+#sub1-1 #content #map .line:after {
+    content: "";
+	flex-grow: 4;
+	background: #cfcfcf;
+	height: 1px;
+	font-size: 0px;
+	line-height: 0px;
+    margin: 0px 20px;    
+}
+#sub1-1 #content #map .map_txt p {  
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 40px;
+}
+#sub1-1 #content #map .mapping iframe{
+    width: 100%;
+    height: 600px;
+    border: 0;
+}
+
+/* 자가용,대중교통 이용 영역 */
+#sub1-1 #content #driving_info {
+    width: 1200px;
+    margin: 0 auto;
+    line-height: 1.7em;
+}
+#sub1-1 #content #driving_info ul {
+    text-indent: 20px;;
+}
+#sub1-1 #content #driving_info h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+#sub1-1 #content #driving_info i {
+    font-size: 1em;
+    vertical-align: center;
+}
+#sub1-1 #content #driving_info h3 a {
+    background: #1f65d5;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.6em;
+    vertical-align: top;
+    margin-left: 20px;
+    color: white;
+}
+#sub1-1 #content #driving_info h3 a:hover {
+    background: #0a429b;
+}
+#sub1-1 #content #driving_info h4 {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-indent: 25px;
+}
+#sub1-1 #content #driving_info ul li {
+    font-weight: normal;
+    text-indent: 50px;
+}
+#sub1-1 #content #driving_info .bus_drive {
+    margin-top: 40px;
+}
+#sub1-1 #content #driving_info .bus_drive p {
+    font-weight: bold;
+    margin-top: 20px;
+    text-indent: 25px;
+}
+

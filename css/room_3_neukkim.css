@@ -1,0 +1,103 @@
+/* 느낌 1~4 */
+.neukkim_bi1{
+    /* border: 1px solid red; */
+    overflow: hidden;
+    position: absolute;
+    width: 548px;
+    height: 318px;
+    left: 0px;
+    top: 0px;
+}
+.neukkim_bi2{
+    /* border: 1px solid red; */
+    overflow: hidden;
+    position: absolute;
+    width: 548px;
+    height: 318px;
+    right: 0px;
+    top: 0px;
+}
+.neukkim_bi3{
+    /* border: 1px solid red; */
+    overflow: hidden;
+    position: absolute;
+    width: 548px;
+    height: 318px;
+    left: 0px;
+    bottom: 0px;
+}
+.neukkim_bi4{
+    /* border: 1px solid red; */
+    overflow: hidden;
+    position: absolute;
+    width: 548px;
+    height: 318px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.neukkim_box1 .neukkim_div1{
+    /* border: 1px solid red; */
+    position: absolute;
+    width: 548px;
+    height: 318px;
+    left: 0px;
+    top: 0px;
+    
+    background: rgba(0, 55, 175, 0.8);
+    box-sizing: border-box;
+    padding-top: 80px;
+    color: #fff;
+    text-align: center;
+    transition: 0.1s ease-in-out;
+    opacity: 0;
+}
+.neukkim_box2 .neukkim_div2{
+    /* border: 1px solid red; */
+    position: absolute;
+    width: 548px;
+    height: 318px;
+    right: 0px;
+    top: 0px;
+    
+    background: rgba(0, 55, 175, 0.8);
+    box-sizing: border-box;
+    padding-top: 80px;
+    color: #fff;
+    text-align: center;
+    transition: 0.1s ease-in-out;
+    opacity: 0;
+}
+.neukkim_box3 .neukkim_div3{
+    /* border: 1px solid red; */
+    position: absolute;
+    width: 548px;
+    height: 318px;
+    left: 0px;
+    bottom: 0px;
+    
+    background: rgba(0, 55, 175, 0.8);
+    box-sizing: border-box;
+    padding-top: 80px;
+    color: #fff;
+    text-align: center;
+    transition: 0.1s ease-in-out;
+    opacity: 0;
+}
+.neukkim_box4 .neukkim_div4{
+    /* border: 1px solid red; */
+    position: absolute;
+    width: 548px;
+    height: 318px;
+    right: 0px;
+    bottom: 0px;
+    
+    background: rgba(0, 55, 175, 0.8);
+    box-sizing: border-box;
+    padding-top: 80px;
+    color: #fff;
+    text-align: center;
+    transition: 0.1s ease-in-out;
+    opacity: 0;
+}
+/* end 느낌 1~4 */

@@ -1,0 +1,103 @@
+/* 생각 1~4 */
+.saenggak_bi1{
+    /* border: 1px solid red; */
+    overflow: hidden;
+    position: absolute;
+    width: 548px;
+    height: 318px;
+    left: 0px;
+    top: 0px;
+}
+.saenggak_bi2{
+    /* border: 1px solid red; */
+    overflow: hidden;
+    position: absolute;
+    width: 548px;
+    height: 318px;
+    right: 0px;
+    top: 0px;
+}
+.saenggak_bi3{
+    /* border: 1px solid red; */
+    overflow: hidden;
+    position: absolute;
+    width: 548px;
+    height: 318px;
+    left: 0px;
+    bottom: 0px;
+}
+.saenggak_bi4{
+    /* border: 1px solid red; */
+    overflow: hidden;
+    position: absolute;
+    width: 548px;
+    height: 318px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.saenggak_box1 .saenggak_div1{
+    /* border: 1px solid red; */
+    position: absolute;
+    width: 548px;
+    height: 318px;
+    left: 0px;
+    top: 0px;
+    
+    background: rgba(0, 55, 175, 0.8);
+    box-sizing: border-box;
+    padding-top: 80px;
+    color: #fff;
+    text-align: center;
+    transition: 0.1s ease-in-out;
+    opacity: 0;
+}
+.saenggak_box2 .saenggak_div2{
+    /* border: 1px solid red; */
+    position: absolute;
+    width: 548px;
+    height: 318px;
+    right: 0px;
+    top: 0px;
+    
+    background: rgba(0, 55, 175, 0.8);
+    box-sizing: border-box;
+    padding-top: 80px;
+    color: #fff;
+    text-align: center;
+    transition: 0.1s ease-in-out;
+    opacity: 0;
+}
+.saenggak_box3 .saenggak_div3{
+    /* border: 1px solid red; */
+    position: absolute;
+    width: 548px;
+    height: 318px;
+    left: 0px;
+    bottom: 0px;
+    
+    background: rgba(0, 55, 175, 0.8);
+    box-sizing: border-box;
+    padding-top: 80px;
+    color: #fff;
+    text-align: center;
+    transition: 0.1s ease-in-out;
+    opacity: 0;
+}
+.saenggak_box4 .saenggak_div4{
+    /* border: 1px solid red; */
+    position: absolute;
+    width: 548px;
+    height: 318px;
+    right: 0px;
+    bottom: 0px;
+    
+    background: rgba(0, 55, 175, 0.8);
+    box-sizing: border-box;
+    padding-top: 80px;
+    color: #fff;
+    text-align: center;
+    transition: 0.1s ease-in-out;
+    opacity: 0;
+}
+/* end 생각 1~4 */

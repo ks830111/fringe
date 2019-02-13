@@ -1,0 +1,82 @@
+/* 쉼 1~3 */
+.swim_bi1{
+    /* border: 1px solid red; */
+    overflow: hidden;
+    position: absolute;
+    width: 548px;
+    height: 640px;
+    left: 0px;
+}
+.swim_bi2{
+    /* border: 1px solid red; */
+    overflow: hidden;
+    position: absolute;
+    width: 548px;
+    height: 318px;
+    right: 0px;
+}
+.swim_bi3{
+    /* border: 1px solid red; */
+    overflow: hidden;
+    position: absolute;
+    width: 548px;
+    height: 318px;
+    right: 0px;
+    bottom: 0px;
+}
+.swim_box1 .swim_div1{
+    /* border: 1px solid red; */
+    position: absolute;
+    width: 548px;
+    height: 640px;
+    left: 0px;
+    /* line-height: 50px; */
+    
+    background: rgba(0, 55, 175, 0.8);
+    box-sizing: border-box;
+    padding-top: 250px;
+    color: #fff;
+    text-align: center;
+    transition: all 0.1s ease-in-out;
+    /* all은 생략 가능 */
+    opacity: 0;
+    /* 불투명도(0.0~1.0) */
+}
+.swim_box2 .swim_div2{
+    /* border: 1px solid red; */
+    position: absolute;
+    width: 548px;
+    height: 318px;
+    right: 0px;
+    /* line-height: 50px; */
+    
+    background: rgba(0, 55, 175, 0.8);
+    box-sizing: border-box;
+    padding-top: 80px;
+    color: #fff;
+    text-align: center;
+    transition: all 0.1s ease-in-out;
+    /* all은 생략 가능 */
+    opacity: 0;
+    /* 불투명도(0.0~1.0) */
+}
+.swim_box3 .swim_div3{
+    /* border: 1px solid red; */
+    position: absolute;
+    width: 548px;
+    height: 318px;
+    right: 0px;
+    bottom: 0px;
+    /* line-height: 50px; */
+    
+    background: rgba(0, 55, 175, 0.8);
+    box-sizing: border-box;
+    padding-top: 80px;
+    color: #fff;
+    text-align: center;
+    transition: all 0.1s ease-in-out;
+    /* all은 생략 가능 */
+    opacity: 0;
+    /* 불투명도(0.0~1.0) */
+}
+/* end 쉼 1~3 */
