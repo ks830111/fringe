@@ -145,7 +145,8 @@ ul {
     position: absolute;
     text-align: center;
     min-width: 1400px;
-    left: 130px;
+    /* left: 130px; */
+    left: 260px;
     top: 430px;
     font-size: 8em;
     font-family: 'Archivo', sans-serif;
